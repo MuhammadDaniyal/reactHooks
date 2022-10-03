@@ -1,38 +1,107 @@
-.App {
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* usestate style */
+/* 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon {
+  font-size: 2rem;
 }
+h1 {
+  font-size: 5.4rem;
+  color: #2e86c1;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* usestate style end */
+
+/* usestate Registration style start  */
+/* 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 2.4rem;
+  margin: 3.2rem 0;
+}
+a {
+  color: #333;
+}
+a:hover {
+  color: #da5767;
+  text-decoration: none;
+}
+.card {
+  border: 0.1rem solid #f8f9fa;
+  padding: 0 3.2rem;
+}
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 1.2rem;
+}
+.form-control:focus {
+  color: #000000;
+  background-color: #ffffff;
+  border: inset 0.5rem solid #da5767;
+  outline: 0;
+  box-shadow: none;
+}
+input {
+  width: 25rem;
+  padding: 1rem 2rem;
+  font-family: "Work Sans", sans-serif;
+  outline: 0;
+  border: none;
+  font-size: 1.2rem;
+}
+.btn {
+  padding: 0.6rem 1.2rem;
+  background-color: #df8c96;
+  border-color: #df8c96;
+  margin-bottom: 3.2rem;
+}
+.btn-primary:hover {
+  background: #da5767;
+  border: inset 0.2rem solid #da5767;
+  transition: 0.3s;
+} */
+
+/* useEffect style start */
+.container {
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 4.8rem;
 }
-
-.App-link {
-  color: #61dafb;
+.icon {
+  font-size: 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 5.4rem;
+  color: #2e86c1;
 }
+/* useEffect style end */
